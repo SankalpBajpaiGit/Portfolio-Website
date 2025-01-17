@@ -16,7 +16,7 @@ export default function Footer() {
             className="text-gray-500 hover:text-gray-900"
           >
             <img
-              src="Photos/in.jpeg"
+              src="/images/in.jpeg"
               alt="LinkedIn"
               className="w-8 h-8 transition-transform transform hover:scale-105"
             />
@@ -29,7 +29,7 @@ export default function Footer() {
             className="text-gray-500 hover:text-gray-900"
           >
             <img
-              src="Photos/gith.jpeg"
+              src="/images/gith.jpeg"
               alt="GitHub"
               className="w-8 h-8 transition-transform transform hover:scale-105"
             />
@@ -42,7 +42,7 @@ export default function Footer() {
             className="text-gray-500 hover:text-gray-900"
           >
             <img
-              src="Photos/realx.jpg"
+              src="/images/realx.jpg"
               alt="Twitter"
               className="w-8 h-8 transition-transform transform hover:scale-105"
             />

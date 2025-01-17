@@ -8,7 +8,7 @@ export default function Projects() {
                     <div className="md:w-5/12 lg:w-5/12">
                         <img
                             className="rounded-lg shadow-lg object-cover"
-                            src="Photos/projects.png"
+                            src="/images/projects.png"
                             alt="image"
                         />
                     </div>

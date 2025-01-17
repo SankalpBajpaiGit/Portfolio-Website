@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div 
             className="mx-auto w-full max-w-7xl bg-cover bg-center relative"
-            style={{ backgroundImage: 'url("/Photos/background.avif")' }} // Path inside the public folder
+            style={{ backgroundImage: 'url("/images/background.avif")' }} // Path inside the public folder
         >
             <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
             <aside className="relative overflow-hidden text-white rounded-lg sm:mx-16 mx-2 sm:py-16">
@@ -34,7 +34,7 @@ export default function Home() {
                                 <img 
                                     className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg hover:scale-105 transition-transform duration-300" 
                                     style={{ objectPosition: 'center 34%' }} 
-                                    src="Photos/me.jpg" 
+                                    src="/images/me.jpg" 
                                     alt="Sankalp Bajpai"
                                 />
                             </div>

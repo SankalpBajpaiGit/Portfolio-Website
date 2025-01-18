@@ -22,7 +22,7 @@ export default function Certification() {
                                 I have successfully completed the "Accelerated Computer Science Fundamentals" certification from Coursera. This course deepened my understanding of core computer science principles and helped me enhance my problem-solving skills in various fields of computer science.
                             </p>
                             <a 
-                                href="https://www.coursera.org/learn/accelerated-computer-science-fundamentals"
+                                href="https://www.coursera.org/account/accomplishments/specialization/VRBLX8LVAWVZ"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block mt-4 text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
@@ -49,7 +49,7 @@ export default function Certification() {
                                 This certificate from Coursera covers the fundamentals of Python programming in the context of data science, AI, and development. It has provided me with the foundational skills required to work on AI and data science projects.
                             </p>
                             <a 
-                                href="https://www.coursera.org/learn/python-for-applied-data-science-ai"
+                                href="https://www.coursera.org/account/accomplishments/verify/EZ4A6D7GHGY9?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block mt-4 text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
@@ -76,7 +76,7 @@ export default function Certification() {
                                 In this course, I learned various techniques to explore, clean, and visualize data, enabling more effective machine learning models. This certification helped me understand data preprocessing and feature engineering better.
                             </p>
                             <a 
-                                href="https://www.coursera.org/learn/exploratory-data-analysis"
+                                href="https://www.coursera.org/account/accomplishments/verify/RRPRDGLFPHNS?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-block mt-4 text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"

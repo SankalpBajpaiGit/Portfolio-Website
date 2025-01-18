@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Certification() {
     return (
@@ -85,8 +85,47 @@ export default function Certification() {
                             </a>
                         </div>
                     </div>
+
+                    {/* Certificate 4: IBM Applied AI */}
+                    <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                        <div className="md:w-5/12 lg:w-5/12">
+                            <img
+                                className="rounded-lg shadow-lg object-cover"
+                                src="/images/aicert.png"
+                                alt="IBM Applied AI Certificate"
+                            />
+                        </div>
+                        <div className="md:w-7/12 lg:w-6/12">
+                            <h2 className="text-2xl text-gray-900 font-bold md:text-4xl mb-4">
+                                IBM Applied AI
+                            </h2>
+                            <p className="text-lg text-gray-600 mb-4">
+                            This Professional Certificate provides a firm understanding of AI, its
+applications, and its use cases. Learners have become familiar with
+IBM Watson AI services and APIs. Learners have also grasped how
+virtual assistant technology works as well as built and deployed an AI
+powered customer support chatbot on a website. Learners competing
+this specialization have picked up practical Python skills to work with AI
+and have used IBM Watson AI services and APIs to create smart
+applications. They have become familiar with Computer Vision, Watson
+Visual Recognition and OpenCV and have used them for image
+processing and creating custom image classifiers. Learners have also
+demonstrated their proficiency in applied AI by completing several
+hands on projects.
+                            </p>
+                            <a 
+                                href="https://coursera.org/verify/professional-cert/LNQJLZK4JQ8K"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block mt-4 text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
+                            >
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     );
 }
+

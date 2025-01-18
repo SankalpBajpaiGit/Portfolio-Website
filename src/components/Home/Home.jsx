@@ -5,9 +5,9 @@ export default function Home() {
     return (
         <div 
             className="mx-auto w-full max-w-7xl bg-cover bg-center relative"
-            style={{ backgroundImage: 'url("/images/background.avif")' }} // Path inside the public folder
+            style={{ backgroundImage: 'url("/images/background.avif")' }}
         >
-            <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black opacity-50"></div>
             <aside className="relative overflow-hidden text-white rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4 pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="flex flex-col sm:flex-row items-center justify-center space-y-8 sm:space-y-0 sm:space-x-16 text-center sm:text-left">
@@ -29,8 +29,8 @@ export default function Home() {
                                 the field. I aim to leverage my skills to create impactful solutions in the world of technology.
                             </p>
                         </div>
-                        <div className="sm:w-1/2 w-full mt-8 sm:mt-0">
-                            <div className="w-96 h-96 mx-auto">
+                        <div className="sm:w-1/2 w-full mt-8 sm:mt-0 flex justify-center items-center">
+                            <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                                 <img 
                                     className="w-full h-full rounded-full object-cover border-4 border-white shadow-lg hover:scale-105 transition-transform duration-300" 
                                     style={{ objectPosition: 'center 34%' }} 

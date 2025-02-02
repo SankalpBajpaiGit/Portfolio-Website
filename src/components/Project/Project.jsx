@@ -44,14 +44,6 @@ export default function Projects() {
                             >
                                 React Projects
                             </a>
-                            <a 
-                                href="https://todo-schedule-planner.netlify.app/" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
-                            >
-                                Todo App
-                            </a>
                         </div>
                     </div>
                 </div>

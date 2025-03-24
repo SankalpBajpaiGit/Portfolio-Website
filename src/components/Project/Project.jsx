@@ -20,6 +20,16 @@ export default function Projects() {
                             Here are some of the projects I have worked on. Click on the links below to check them out on GitHub.
                         </p>
                         <div className="space-y-4">
+
+                            <a 
+                                href="mitstudentblog.netlify.app" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
+                            >
+                                Blog Website
+                            </a>
+                            
                             <a 
                                 href="https://github.com/SankalpBajpaiGit/Youtube-Clone" 
                                 target="_blank" 

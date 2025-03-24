@@ -22,7 +22,7 @@ export default function Projects() {
                         <div className="space-y-4">
 
                             <a 
-                                href="mitstudentblog.netlify.app" 
+                                href="https://mitstudentblog.netlify.app/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"

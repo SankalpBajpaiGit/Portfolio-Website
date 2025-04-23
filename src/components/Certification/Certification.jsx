@@ -91,13 +91,13 @@ export default function Certification() {
                         <div className="md:w-5/12 lg:w-5/12">
                             <img
                                 className="rounded-lg shadow-lg object-cover"
-                                src="/images/aicert.png"
+                                src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~LNQJLZK4JQ8K/CERTIFICATE_LANDING_PAGE~LNQJLZK4JQ8K.jpeg"
                                 alt="IBM Applied AI Certificate"
                             />
                         </div>
                         <div className="md:w-7/12 lg:w-6/12">
                             <h2 className="text-2xl text-gray-900 font-bold md:text-4xl mb-4">
-                                IBM Applied AI
+                                IBM AI Developer
                             </h2>
                             <p className="text-lg text-gray-600 mb-4">
                             This Professional Certificate provides a firm understanding of AI, its

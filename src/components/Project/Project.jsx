@@ -6,7 +6,7 @@ const projectsData = [
     title: 'Video with AI',
     description: 'This is a full-stack video sharing platform, similar to YouTube Shorts or Instagram Reels, built with Next.js. It allows users to register, log in, upload their own short videos, and browse a feed of videos uploaded by others. This uses AI from the powerful video processing and optimization features built into ImageKit for Automatic Thumbnail Generation.',
     imageUrl: '/images/aivid.png',
-    link: 'https://github.com/SankalpBajpaiGit/React-Projects',
+    link: 'https://reelwithai.vercel.app/',
   },
   {
     id: 2,

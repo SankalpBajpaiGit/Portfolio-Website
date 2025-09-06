@@ -17,7 +17,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: 'Video Streaming Platforms',
+    title: 'Video Streaming Platform',
     description: 'A functional backend for a video streaming platform using Javascript, Node.js, Express.js, MongoDB, and Mongoose. Key features include user authentication, profile/channel creation, video uploads, video streaming, like functionality, subscriptions, and watch history tracking.',
     imageUrl: '/images/streamvid.png',
     link: 'https://github.com/SankalpBajpaiGit/Video-Streaming-Platform',

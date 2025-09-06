@@ -17,13 +17,20 @@ const projectsData = [
   },
   {
     id: 3,
+    title: 'Video Streaming Platforms',
+    description: 'A functional backend for a video streaming platform using Javascript, Node.js, Express.js, MongoDB, and Mongoose. Key features include user authentication, profile/channel creation, video uploads, video streaming, like functionality, subscriptions, and watch history tracking.',
+    imageUrl: '/images/streamvid.png',
+    link: 'https://github.com/SankalpBajpaiGit/Video-Streaming-Platform',
+  },
+  {
+    id: 4,
     title: 'YouTube Clone',
     description: 'A video-sharing application inspired by YouTube. It leverages external APIs to fetch and display video content, search results, and channel pages.',
     imageUrl: '/images/youtube.png',
     link: 'https://github.com/SankalpBajpaiGit/Youtube-Clone',
   },
   {
-    id: 4,
+    id: 5,
     title: 'JavaScript Projects',
     description: 'A collection of small, fun projects built with vanilla JavaScript, HTML, and CSS to demonstrate core web development skills and DOM manipulation.',
     imageUrl: '/images/projectjs.png',

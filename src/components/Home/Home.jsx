@@ -20,7 +20,7 @@ export default function Home() {
                                 Manipal Institute of Technology, Manipal. I'm constantly exploring the realms of technology and programming.
                             </p>
                             <p className="text-xl mt-4 text-white max-w-xl mx-auto sm:mx-0">
-                                I am Knight on Leetcode and have a deep interest and proficiency in Web Development, 
+                                I have a deep interest and proficiency in Web Development, 
                                 Data Structures & Algorithms (DSA), and Generative AI. I love solving complex problems and building
                                 efficient, scalable systems.
                             </p>

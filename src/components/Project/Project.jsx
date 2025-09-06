@@ -29,13 +29,6 @@ const projectsData = [
     imageUrl: '/images/projectjs.png',
     link: 'https://github.com/SankalpBajpaiGit/JavaScript-Projects',
   },
-  {
-    id: 5,
-    title: 'React Projects',
-    description: 'A showcase of various applications built using React. This repository includes examples of state management, component lifecycle, and modern UI/UX patterns.',
-    imageUrl: '/images/projectreact.png',
-    link: 'https://github.com/SankalpBajpaiGit/React-Projects',
-  },
 ];
 
 const ProjectCard = ({ project }) => {

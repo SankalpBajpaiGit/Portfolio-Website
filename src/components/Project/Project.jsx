@@ -66,7 +66,7 @@ export default function Projects() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl text-gray-900 font-bold md:text-5xl">
-            My Creative Portfolio
+            My Creative Projects
           </h2>
           <p className="text-lg text-gray-600 mt-4">
             Here are some of the projects I've worked on. Feel free to explore them.

@@ -1,63 +1,85 @@
-import React from 'react'
+import React from 'react';
 
+const projectsData = [
+  {
+    id: 1,
+    title: 'Video with AI',
+    description: 'This is a full-stack video sharing platform, similar to YouTube Shorts or Instagram Reels, built with Next.js. It allows users to register, log in, upload their own short videos, and browse a feed of videos uploaded by others. This uses AI from the powerful video processing and optimization features built into ImageKit for Automatic Thumbnail Generation.',
+    imageUrl: '/images/aivid.png',
+    link: 'https://github.com/SankalpBajpaiGit/React-Projects',
+  },
+  {
+    id: 2,
+    title: 'Blog Website',
+    description: 'A full-featured blog platform built with the MERN stack. It includes user authentication, post creation, and a responsive design for a seamless reading experience.',
+    imageUrl: '/images/blog.png',
+    link: 'https://mitstudentblog.netlify.app/',
+  },
+  {
+    id: 3,
+    title: 'YouTube Clone',
+    description: 'A video-sharing application inspired by YouTube. It leverages external APIs to fetch and display video content, search results, and channel pages.',
+    imageUrl: '/images/youtube.png',
+    link: 'https://github.com/SankalpBajpaiGit/Youtube-Clone',
+  },
+  {
+    id: 4,
+    title: 'JavaScript Projects',
+    description: 'A collection of small, fun projects built with vanilla JavaScript, HTML, and CSS to demonstrate core web development skills and DOM manipulation.',
+    imageUrl: '/images/projectjs.png',
+    link: 'https://github.com/SankalpBajpaiGit/JavaScript-Projects',
+  },
+  {
+    id: 5,
+    title: 'React Projects',
+    description: 'A showcase of various applications built using React. This repository includes examples of state management, component lifecycle, and modern UI/UX patterns.',
+    imageUrl: '/images/projectreact.png',
+    link: 'https://github.com/SankalpBajpaiGit/React-Projects',
+  },
+];
+
+const ProjectCard = ({ project }) => {
+  return (
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
+      <img src={project.imageUrl} alt={project.title} className="w-full h-56 object-cover" />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-gray-800 mb-2">{project.title}</h3>
+        <p className="text-gray-600 mb-4">{project.description}</p>
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+        >
+          View Project
+        </a>
+      </div>
+    </div>
+  );
+};
+
+// --- Main Projects Page Component ---
 export default function Projects() {
-    return (
-        <div className="py-16 bg-white">
-            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div className="md:w-5/12 lg:w-5/12">
-                        <img
-                            className="rounded-lg shadow-lg object-cover"
-                            src="/images/projects.png"
-                            alt="image"
-                        />
-                    </div>
-                    <div className="md:w-7/12 lg:w-6/12">
-                        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl mb-4">
-                            My Projects
-                        </h2>
-                        <p className="text-lg text-gray-600 mb-6">
-                            Here are some of the projects I have worked on. Click on the links below to check them out on GitHub.
-                        </p>
-                        <div className="space-y-4">
-
-                            <a 
-                                href="https://mitstudentblog.netlify.app/" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
-                            >
-                                Blog Website
-                            </a>
-                            
-                            <a 
-                                href="https://github.com/SankalpBajpaiGit/Youtube-Clone" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
-                            >
-                                Youtube Clone
-                            </a>
-                            <a 
-                                href="https://github.com/SankalpBajpaiGit/JavaScript-Projects" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
-                            >
-                                JavaScript Projects
-                            </a>
-                            <a 
-                                href="https://github.com/SankalpBajpaiGit/React-Projects" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="block text-xl font-medium text-blue-600 hover:text-blue-800 transition-colors duration-300"
-                            >
-                                React Projects
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="py-20 bg-gray-50">
+      <div className="container mx-auto px-6 md:px-12">
+        {/* Header Section */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl text-gray-900 font-bold md:text-5xl">
+            My Creative Portfolio
+          </h2>
+          <p className="text-lg text-gray-600 mt-4">
+            Here are some of the projects I've worked on. Feel free to explore them.
+          </p>
         </div>
-    );
+
+        {/* Projects Grid */}
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-2">
+          {projectsData.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
